@@ -101,6 +101,20 @@ body{
  .services-section{
  	background-color: #f3f3f3;
  }
+ .form-inline {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+    -ms-flex-align: center;
+    align-items: center;
+    margin: 0 auto;
+        margin-top: 0px;
+        margin-left: auto;
+    width: 70%;
+    margin-left: 25%;
+    margin-top: 3rem;
+}
 .title-subtitle-section{
 	text-align: center;
 	margin-top: 2rem;
