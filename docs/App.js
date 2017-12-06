@@ -44,7 +44,7 @@ class App extends Component {
 
             </div>
           </Navbar>
-          <div className="start-page">
+           
             <div className="jumbotron">
               <div className="container text-center">
                 <div className="jumbotron-tenfins-section">
@@ -53,7 +53,7 @@ class App extends Component {
                 </div>
               </div>
             </div>
-          </div>
+           
            <div id="tech" className="technology padding-style-page">
              <div className="container text-center">
                 <h3>Technology</h3> 
@@ -182,25 +182,26 @@ class App extends Component {
 
                       <div className="col-md-2">
                         <address>
-                          <h5>About Us</h5>
+                         <strong> <h5>About Us</h5></strong>
                           <h6>Our Mission</h6>
                           <h6>We're Hiring!</h6>
                         </address>
                       </div>
                       <div className="col-md-2">
                         <address>
-                          <h5>Information</h5>
+                         <strong>  <h5>Information</h5></strong>
                           <h6>Consultants Available</h6>
                           <h6>Help & Support</h6>
                         </address>
                       </div>
                       <div className="col-md-2">
                         <address>
-                          <h5>Contact</h5>
+                          <strong> <h5>Contact</h5></strong>
                           <h6>720-354-2372</h6>
                           <h6>bertbeck@gmail.com</h6>
                         </address>
                       </div>
+
                     </div>
                     </div>
                 </div>
@@ -208,7 +209,8 @@ class App extends Component {
 
            
           <Footer color=" " className="footer-copyright">
-            <div className=" ">
+            <div className="container">
+             <hr />
             <p className="footer-copyright mb-0">
             
              <a href="https://www.tenfins.com"> Tenfins </a> &copy; {(new Date().getFullYear())} 

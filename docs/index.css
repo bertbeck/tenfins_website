@@ -40,12 +40,38 @@ body{
 	font-weight: 500;
 	color: gray;
 }
- 
-
+ .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #40404c;
+    -webkit-transition: .35s;
+    transition: .35s;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 700;
+}
+.navbar{
+	box-shadow: none !important;
+}
  
 .jumbotron{
 	height: 40rem;
-	background-image: url(/images/tenfins-background.jpg );
+	background-image:      url("//res.cloudinary.com/hrscywv4p/image/upload/c_limit,fl_lossy,h_1500,w_2000,f_auto,q_100/v1/1283149/Depositphotos_8464329_dolphins1_v2_a2kwle.jpg");
+    background-attachment: fixed; 
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-repeat: no-repeat; 
+	background-color: transparent;
+	background-position: 10% 20%;
+}
+.jumbotron h2{
+	color: #fff;
+	font-weight: 500;
+}
+.jumbotron p{
+	color: #fff;
+}
+.jumbotron{
+	box-shadow: none !important;
 }
 .jumbotron-tenfins-section{
 	margin-top: 25%;
@@ -109,8 +135,8 @@ body{
     -ms-flex-align: center;
     align-items: center;
     margin: 0 auto;
-        margin-top: 0px;
-        margin-left: auto;
+    margin-top: 0px;
+    margin-left: auto;
     width: 70%;
     margin-left: 25%;
     margin-top: 3rem;
@@ -128,14 +154,28 @@ body{
 	text-align: left !important;
 	color: #997 !important;
 }
-.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #999;
-    -webkit-transition: .35s;
-    transition: .35s;
-    text-transform: uppercase;
-    font-size: 1rem;
-    font-weight: 500;
-}
+
 .indigo{
-	background-color: transparent !important; 
+	background-color: #fff  !important; 
+}
+footer.page-footer .footer-copyright {
+    overflow: hidden;
+    height: 50px;
+    line-height: 50px;
+    color: #222324; 
+    background-color: rgba(0,0,0,.2);
+    text-align: center;
+    font-size: .9rem;
+}
+.footer-copyright {
+    background-color: #fff !important;
+    text-align: left !important;
+    color: #997 !important;
+}
+ .footer-copyright  a{
+	color: #997 !important
+}
+address h5{
+	color: #222324;
+	font-weight: 500;
 }
