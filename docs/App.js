@@ -21,7 +21,7 @@ class App extends Component {
             <NavbarToggler />
             <div className="collapse navbar-collapse" id="reactNavbar">
 
-              <NavbarNav className="ml-auto">
+              <NavbarNav className="ml-left">
                 <NavItem>
                   <NavLink className="nav-link js-scroll-trigger" id="tech" to="/">Home</NavLink>
                 </NavItem>

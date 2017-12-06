@@ -40,13 +40,17 @@ body{
 	font-weight: 500;
 	color: gray;
 }
+
  .navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
-    color: #40404c;
+    color: #fff !important;
     -webkit-transition: .35s;
     transition: .35s;
     text-transform: uppercase;
     font-size: 1rem;
-    font-weight: 700;
+    font-weight: 500;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link:hover, .navbar.navbar-dark .navbar-nav .nav-item .nav-link:hover {
+    color: #ccc !important; 
 }
 .navbar{
 	box-shadow: none !important;
@@ -156,7 +160,7 @@ body{
 }
 
 .indigo{
-	background-color: #fff  !important; 
+	background-color: transparent  !important; 
 }
 footer.page-footer .footer-copyright {
     overflow: hidden;
