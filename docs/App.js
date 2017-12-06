@@ -43,7 +43,7 @@ class App extends Component {
 
             </div>
           </Navbar>
-          <div className="start-page">
+          <div className="start-page padding-style-page">
             <div className="jumbotron">
               <div className="container text-center">
                 <div className="jumbotron-tenfins-section">
@@ -53,6 +53,47 @@ class App extends Component {
               </div>
             </div>
           </div>
+           <div className="technology padding-style-page">
+             <div className="container text-center">
+                <h3>Technology</h3> 
+                <h2>Mobile apps today can be developed with Native, Hybrid or Cross Platforms tools. 
+                    Hybrid tools use embedded web browser controls and are slow 
+                    Cross Platform tools use Native api's and are closer to Native performance
+                    React Native and Google's new tool Flutter are Cross Platform tools.</h2>
+                <div className="row">
+                  <div className="col-md-3">
+                    <div className="row">
+                      <div className="col-md-12">
+                        <h4>Google Flutter is new tech that is coming on strong and will challenge React Native.
+                         We think Flutter has the potential to be a better solution.  
+                         </h4>
+                         <h5>
+                         "While it's still very early days, the team are onto something big, They have hit a sweet
+                          spot of productivity and power, and have the momentum and backing to be successful.
+                           The ability to write an app that runs on both iOS and Android,
+                           with one code base, without compromise, using a highly productive 
+                           language and set of libraries -- it's a compelling value proposition."
+                         </h5>
+                         <p className="">- Tim Sneath, 17-Year Microsoft Vet now leading Google's Flutter Team
+                         </p>
+                      </div>
+                    </div>
+                    </div>
+                    <div className="col-md-9">
+                      <div className="embed-responsive embed-responsive-16by9">
+                        <iframe className="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2F1BXg4wfB9pA%3Fwmode%3Dtransparent%26feature%3Doembed&amp;wmode=transparent&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3D1BXg4wfB9pA&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2F1BXg4wfB9pA%2Fhqdefault.jpg&amp;key=0ae70bf4c11f11e09f134040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" scrolling="no" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+                      </div>
+
+                    </div>
+                </div>
+             </div>
+           </div>
+           <div className="blog-section padding-style-page">
+            <div className="title-subtitle-section">
+              <h5>The Blog</h5>
+              <h2>Thoughts, musings, and ruminations.</h2>
+            </div>
+           </div>
           <main style={{marginTop: '4rem'}}>
             <Routes />
           </main>

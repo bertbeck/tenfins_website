@@ -32,10 +32,36 @@
 	float:right;
 }
 /********************** start ewb application **********************/
+body{
+	background-color: #fff !important;
+}
 .jumbotron{
 	height: 40rem;
-	background-image: url( );
+	background-image: url(/images/tenfins-background.jpg );
 }
 .jumbotron-tenfins-section{
 	margin-top: 25%;
+}
+.padding-style-page{
+	padding-top: 5rem;
+	padding-bottom: 5rem;
+}
+.technology h3{
+	margin-bottom: 3rem;
+}
+.technology h2{
+	line-height: 1.45;
+}
+.blog-section{
+	background-color: #1c1c1c;
+	background-attachment: fixed;
+	color: #e0e0e0;
+}
+.title-subtitle-section{
+	text-align: center;
+	margin-top: 1rem;
+	margin-bottom: 3rem;
+}
+.blog-section h5{
+	margin-bottom: 2rem;
 }
