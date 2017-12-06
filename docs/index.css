@@ -98,6 +98,9 @@ body{
 	font-weight: 900;
 	color: #222324;
 }
+ .services-section{
+ 	background-color: #f3f3f3;
+ }
 .title-subtitle-section{
 	text-align: center;
 	margin-top: 2rem;
@@ -115,6 +118,9 @@ body{
     color: #999;
     -webkit-transition: .35s;
     transition: .35s;
+    text-transform: uppercase;
+    font-size: 1rem;
+    font-weight: 500;
 }
 .indigo{
 	background-color: transparent !important; 
