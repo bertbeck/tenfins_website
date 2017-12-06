@@ -153,7 +153,8 @@ class App extends Component {
 
               <div className="contact-section padding-style-page">
                 <div className="container">
-                  <div className="title-subtitle-section">
+                  <div className="row">
+                 
                     <div className="col-md-6">
                       <h5>Got Questions? </h5>
                       <h2> We've Got Answers.</h2>
@@ -167,11 +168,14 @@ class App extends Component {
 
                     </div>
                     <div className="col-md-6">
-
+                      <div className="">
+                        <iframe className="google-maps-style" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d48855.52246526886!2d-105.2136303!3d40.0649237!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2srs!4v1512580175503" allowfullscreen></iframe>
+                      </div>
+                    </div>
                     </div>
                   </div>
                 </div>
-              </div>
+              
 
 
               <div className="about-us-contact-section padding-style-page">

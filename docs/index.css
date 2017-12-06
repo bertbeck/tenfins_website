@@ -179,3 +179,8 @@ address h5{
 	color: #222324;
 	font-weight: 500;
 }
+.google-maps-style{
+	width: 100%;
+    height: 25rem;
+    border: 0;
+}
