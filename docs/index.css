@@ -34,8 +34,15 @@
 /********************** start ewb application **********************/
 body{
 	background-color: #fff !important;
-	line-height: 1.45;
+	line-height: 1; 
+    font-family: 'Source Sans Pro', sans-serif;  
+    font-size: 1.5rem;
+	font-weight: 500;
+	color: gray;
 }
+ 
+
+ 
 .jumbotron{
 	height: 40rem;
 	background-image: url(/images/tenfins-background.jpg );
@@ -49,14 +56,47 @@ body{
 }
 .technology h3{
 	margin-bottom: 3rem;
+	font-weight: 400 !important;
+	margin-bottom: 3rem;
 }
 .technology h2{
 	line-height: 1.45;
+	font-weight: 400;
+	margin-bottom: 3rem;
+}
+.technology h4{
+	line-height: 1.45;
+	font-weight: 400;
+	margin-bottom: 2.5rem;
+}
+.left-section{
+	text-align: left;
+}
+.author-style{
+	font-weight: 700;
+	text-align: left;
+	font-size: 1rem;
+	color: #40404c;
 }
 .blog-section{
 	background-color: #1c1c1c;
 	background-attachment: fixed;
 	color: #e0e0e0;
+}
+.blog-section h2{
+	font-weight: 500;
+}
+.padding-style-page-video{
+	margin-top: 2rem;
+	margin-bottom: 2rem;
+}
+.padding-style-page-video h2{
+	font-weight: 900;
+	color: #222324;
+}
+.padding-style-page-video .video-text-style{
+	font-weight: 900;
+	color: #222324;
 }
 .title-subtitle-section{
 	text-align: center;
@@ -70,4 +110,12 @@ body{
 	background-color: #fff !important;
 	text-align: left !important;
 	color: #997 !important;
+}
+.navbar.navbar-dark .breadcrumb .nav-item .nav-link, .navbar.navbar-dark .navbar-nav .nav-item .nav-link {
+    color: #999;
+    -webkit-transition: .35s;
+    transition: .35s;
+}
+.indigo{
+	background-color: transparent !important; 
 }
