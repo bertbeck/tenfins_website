@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, Footer } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
+import {Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
 import './index.css';
 
 const NavLink = require('react-router-dom').NavLink;
@@ -24,19 +25,34 @@ class App extends Component {
                   <NavLink className="nav-link" to="/">Home</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/css">CSS</NavLink>
+                  <NavLink className="nav-link" to="/css">Tech</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/components">Components</NavLink>
+                  <NavLink className="nav-link" to="/components">Blog</NavLink>
                 </NavItem>
                 <NavItem>
-                  <NavLink className="nav-link" to="/javascript">JavaScript</NavLink>
+                  <NavLink className="nav-link" to="/javascript">People</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/javascript">Services</NavLink>
+                </NavItem>
+                <NavItem>
+                  <NavLink className="nav-link" to="/javascript">Contact us</NavLink>
                 </NavItem>
               </NavbarNav>
 
             </div>
           </Navbar>
-
+          <div className="start-page">
+            <div className="jumbotron">
+              <div className="container text-center">
+                <div className="jumbotron-tenfins-section">
+                <p>Agile Mobile and Web</p>
+                <h2>Tenfins </h2>
+                </div>
+              </div>
+            </div>
+          </div>
           <main style={{marginTop: '4rem'}}>
             <Routes />
           </main>

@@ -31,3 +31,11 @@
 	color:rgba(0,0,0,.35);
 	float:right;
 }
+/********************** start ewb application **********************/
+.jumbotron{
+	height: 40rem;
+	background-image: url( );
+}
+.jumbotron-tenfins-section{
+	margin-top: 25%;
+}
