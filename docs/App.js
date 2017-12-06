@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, Footer } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
-import {Card, CardBody, CardImage, CardTitle, CardText, Input, FormInline } from 'mdbreact';
+import {Card, CardBody, CardImage, CardTitle, CardText, Input, FormInline  } from 'mdbreact';
 import './index.css';
 
 const NavLink = require('react-router-dom').NavLink;
@@ -143,17 +143,73 @@ class App extends Component {
                       </FormInline>
                   </div>
                 </div>
-           </div>
-          <main style={{marginTop: '4rem'}}>
-            <Routes />
-          </main>
-          <Footer color="indigo">
+              </div>
+
+              <div className="contact-section padding-style-page">
+                <div className="container">
+                  <div className="title-subtitle-section">
+                    <div className="col-md-6">
+                      <h5>Got Questions? </h5>
+                      <h2> We've Got Answers.</h2>
+                       
+                        <Input label="Name"  group type="text" />
+                        <Input label="Email"  group type="email" />
+                        <Input type="textarea" label="Basic textarea"/>
+                        <Button color="elegant" className="btn btn-block send-mesage-button">Submit</Button>
+                       
+
+                    </div>
+                    <div className="col-md-6">
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+
+              <div className="about-us-contact-section padding-style-page">
+                <div className="container">
+                 <div className=" ">
+                  <div className="row">
+                 
+
+                      <div className="col-md-2">
+                        <address>
+                          <h5>About Us</h5>
+                          <h6>Our Mission</h6>
+                          <h6>We're Hiring!</h6>
+                        </address>
+                      </div>
+                      <div className="col-md-2">
+                        <address>
+                          <h5>Information</h5>
+                          <h6>Consultants Available</h6>
+                          <h6>Help & Support</h6>
+                        </address>
+                      </div>
+                      <div className="col-md-2">
+                        <address>
+                          <h5>Contact</h5>
+                          <h6>720-354-2372</h6>
+                          <h6>bertbeck@gmail.com</h6>
+                        </address>
+                      </div>
+                    </div>
+                    </div>
+                </div>
+              </div>
+
+           
+          <Footer color=" " className="footer-copyright">
+            <div className=" ">
             <p className="footer-copyright mb-0">
-              &copy; {(new Date().getFullYear())} Copyright: <a href="https://www.MDBootstrap.com"> MDBootstrap.com </a>
+            
+             <a href="https://www.tenfins.com"> Tenfins </a> &copy; {(new Date().getFullYear())} 
             </p>
+            </div>
           </Footer>
         </div>
-      </Router>
+        </Router>
     );
   }
 }

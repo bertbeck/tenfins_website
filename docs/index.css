@@ -34,6 +34,7 @@
 /********************** start ewb application **********************/
 body{
 	background-color: #fff !important;
+	line-height: 1.45;
 }
 .jumbotron{
 	height: 40rem;
@@ -64,4 +65,9 @@ body{
 }
 .blog-section h5{
 	margin-bottom: 2rem;
+}
+.footer-copyright{
+	background-color: #fff !important;
+	text-align: left !important;
+	color: #997 !important;
 }
