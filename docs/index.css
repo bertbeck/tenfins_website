@@ -35,7 +35,9 @@
 body{
 	background-color: #fff !important;
 	line-height: 1; 
-    font-family: 'Source Sans Pro', sans-serif;  
+    font-family: 'Nunito', sans-serif;
+    font-family: 'Nunito', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
     font-size: 1.5rem;
 	font-weight: 500;
 	color: gray;
@@ -88,11 +90,18 @@ body{
 	margin-bottom: 3rem;
 	font-weight: 400 !important;
 	margin-bottom: 3rem;
+	text-align: center;
+	color: #222324;
+	font-family: 'Nunito', helvetica, sans-serif
 }
 .technology h2{
 	line-height: 1.45;
 	font-weight: 400;
 	margin-bottom: 3rem;
+	text-align: center;
+	color: #222324;
+	font-size: 1.35rem;
+	font-family: 'Source Sans Pro', sans-serif;
 }
 .technology h4{
 	line-height: 1.45;
