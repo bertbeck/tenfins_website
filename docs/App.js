@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Button, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, Footer } from 'mdbreact';
 import { BrowserRouter as Router } from 'react-router-dom';
-import {Card, CardBody, CardImage, CardTitle, CardText } from 'mdbreact';
+import {Card, CardBody, CardImage, CardTitle, CardText, Input, FormInline } from 'mdbreact';
 import './index.css';
 
 const NavLink = require('react-router-dom').NavLink;
@@ -89,10 +89,60 @@ class App extends Component {
              </div>
            </div>
            <div className="blog-section padding-style-page">
-            <div className="title-subtitle-section">
-              <h5>The Blog</h5>
-              <h2>Thoughts, musings, and ruminations.</h2>
-            </div>
+                <div className="container">
+                  <div className="title-subtitle-section">
+                    <h5>The Blog</h5>
+                    <h2>Thoughts, musings, and ruminations.</h2>
+                  </div>
+                </div>
+           </div>
+
+           <div className="people-section padding-style-page">
+               <div className="container">
+                <div className="title-subtitle-section">
+                  <h5>People</h5>
+                  <h2> Success comes from People and Technology you can rely on 
+                  We're based in Boulder, Colorado and can assist locally or remotely
+                  We've got expertise in React Native, Flutter and Backends in C#, Dart and Java
+                  .</h2>
+                </div> 
+              <div className="row">
+                    <div className="col-md-9">
+                          <div className="embed-responsive embed-responsive-16by9">
+                             <iframe className="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FabSNo2P9mMM%3Fwmode%3Dtransparent%26feature%3Doembed&amp;wmode=transparent&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DabSNo2P9mMM&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FabSNo2P9mMM%2Fhqdefault.jpg&amp;key=0ae70bf4c11f11e09f134040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" scrolling="no" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+                          </div> 
+                    </div>
+                    <div className="col-md-3">
+                      <h2>React Native</h2>
+                      <p>Scaling to 80 Million Users </p>
+                      <p>React Native is making inroads into mainstream Mobile cross platform development. </p>
+                    </div>
+                  
+                    <div className="col-md-3">
+                      <h2>Flutter vs React Native</h2>
+                      <p>Scaling to 80 Million Users </p>
+                      <p>Mobile developers compare Flutter and React Native </p>
+                    </div>
+                     <div className="col-md-9">
+                          <div className="embed-responsive embed-responsive-16by9">
+                             <iframe className="embedly-embed" src="//cdn.embedly.com/widgets/media.html?src=https%3A%2F%2Fwww.youtube.com%2Fembed%2FabSNo2P9mMM%3Fwmode%3Dtransparent%26feature%3Doembed&amp;wmode=transparent&amp;url=http%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DabSNo2P9mMM&amp;image=https%3A%2F%2Fi.ytimg.com%2Fvi%2FabSNo2P9mMM%2Fhqdefault.jpg&amp;key=0ae70bf4c11f11e09f134040d3dc5c07&amp;type=text%2Fhtml&amp;schema=youtube" scrolling="no" allowfullscreen="" width="640" height="360" frameborder="0"></iframe>
+                      </div> 
+                    </div>
+                 </div>
+              </div>
+              </div>
+              <div className="services-section padding-style-page">
+                <div className="container">
+                  <div className="title-subtitle-section">
+                    <h5>Services</h5>
+                    <h2>Contact us for Mobile and Web Development</h2>
+                      <FormInline>
+                        <Input label="Type your email" icon="envelope" group type="email" />
+                        <Input label="Type your password" icon="lock" group type="password" />
+                        <Button>Login</Button>
+                      </FormInline>
+                  </div>
+                </div>
            </div>
           <main style={{marginTop: '4rem'}}>
             <Routes />
