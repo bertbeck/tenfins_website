@@ -3,6 +3,7 @@ import { Button, Navbar, NavbarBrand, NavbarNav, NavbarToggler, NavItem, Footer 
 import { BrowserRouter as Router } from 'react-router-dom';
 import {Card, CardBody, CardImage, CardTitle, CardText, Input, FormInline  } from 'mdbreact';
 import './index.css';
+ 
 
 const NavLink = require('react-router-dom').NavLink;
 
@@ -13,9 +14,9 @@ class App extends Component {
     return (
       <Router>
         <div className="flyout">
-          <Navbar color="indigo" dark expand="md" fixed="top" scrolling>
+          <Navbar color="indigo" dark expand="md" fixed="top" scrolling id="mainNav">
             <NavbarBrand href="/"> 
-              <img src="images/logo.png" className="img-fluid navbar-brand" />
+              
 
             </NavbarBrand>
             <NavbarToggler />
@@ -101,7 +102,7 @@ class App extends Component {
            <div className="people-section padding-style-page">
                <div className="container">
                 <div className="title-subtitle-section">
-                  <h5>People</h5>
+                  <h3>People</h3>
                   <h2> Success comes from People and Technology you can rely on <br />
                   We're based in Boulder, Colorado and can assist locally or remotely <br />
                   We've got expertise in React Native, Flutter and Backends in C#, Dart and Java <br />
@@ -140,7 +141,7 @@ class App extends Component {
               <div className="services-section padding-style-page">
                 <div className="container">
                   <div className="title-subtitle-section">
-                    <h5>Services</h5>
+                    <h3>Services</h3>
                     <h2>Contact us for Mobile and Web Development</h2>
                       <FormInline color="elegant" className="text-center"> 
                         <Input label=" Name"  group type="text" />
