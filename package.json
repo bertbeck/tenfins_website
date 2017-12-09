@@ -3,7 +3,7 @@
   "version": "4.0.0",
   "author": "MDBootstrap",
   "license": "MIT",
-  "homepage": "http://tenfins.com/build",
+  "homepage": "http://tenfins.com/paulwells/build",
   "repository": "https://github.com/mdbootstrap/React-Bootstrap-with-Material-Design",
   "dependencies": {
     "bootstrap": "4.0.0-beta",
