@@ -1,0 +1,188 @@
+@import '../../../styles/color.css';
+
+.slider {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
+  background: var(--sliderBg);
+  background: radial-gradient(circle, rgba(34, 35, 64, 1) 0%, rgba(38, 38, 41, 1) 100%);
+}
+
+.slide {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  transform: translateX(-50%);
+  transition: all 2s ease;
+}
+
+.slide img {
+  width: 100%;
+  height: 100%;
+}
+
+.current {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.slider-content {
+  position: absolute;
+  top: 23rem;
+  left: 5rem;
+  opacity: 0;
+  width: 50%;
+  border-radius: 14px;
+  padding: 3rem;
+  animation: slide-up 1s ease 0.7s;
+  animation-fill-mode: forwards;
+  visibility: hidden;
+  background: rgba(83, 84, 124, 0.4);
+}
+
+@keyframes slide-up {
+  0% {
+    visibility: visible;
+    top: 23rem;
+  }
+
+  100% {
+    visibility: visible;
+    top: 12rem;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .slider-content {
+    width: 80%;
+  }
+}
+
+.slider-content h2 {
+  color: var(--yellow);
+}
+
+.slider-content>* {
+  color: var(--white);
+  margin-bottom: 1rem;
+}
+
+.current .slider-content {
+  opacity: 1;
+  transform: translateX(0);
+  transition: all 0.5s ease;
+}
+
+.arrow {
+  border: 2px solid var(--white);
+  background-color: transparent;
+  color: var(--white);
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: none;
+  position: absolute;
+  z-index: 9;
+}
+
+.arrow:hover {
+  scale: 1.2;
+}
+
+.next {
+  top: 35%;
+  right: 1.5rem;
+}
+
+.prev {
+  top: 35%;
+  left: 1.5rem;
+}
+
+hr {
+  height: 2px;
+  background: var(--white);
+  width: 50%;
+}
+
+@media screen and (max-width: 1024px) {
+  .slide img {
+    width: 100%;
+    height: 100%;
+  }
+
+  .slider-content {
+    top: 10rem;
+    padding: 2rem 3rem;
+    width: 60%;
+  }
+
+  .slider-content>p {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .slider {
+    height: 70vh;
+  }
+
+  .slider-content {
+    top: 5rem;
+    left: 1.5rem;
+    padding: 1rem;
+    width: 90%;
+  }
+
+  @keyframes slide-up {
+    0% {
+      visibility: visible;
+      top: 18rem;
+    }
+
+    100% {
+      visibility: visible;
+      top: 8rem;
+    }
+  }
+
+  .arrow {
+    height: 0.8rem;
+    width: 0.8rem;
+  }
+
+  .next {
+    top: 50%;
+    right: 1rem;
+  }
+
+  .prev {
+    top: 50%;
+    left: 1rem;
+  }
+
+}
+
+@media screen and (max-width: 385px) {
+  .slider {
+    height: 75vh;
+  }
+
+  .slider-content {
+    top: 5rem;
+    left: 1rem;
+    padding: 0.5rem;
+  }
+
+  .next {
+    right: 0.5rem;
+  }
+
+  .prev {
+    left: 0.5rem;
+  }
+}

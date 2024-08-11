@@ -1,0 +1,14 @@
+{
+  "name": "backend_retrocube",
+  "version": "1.0.0",
+  "description": "Portfolio Website",
+  "scripts": {
+    "start": "node index.js",
+    "build": "npm run build"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.5"
+  }
+}

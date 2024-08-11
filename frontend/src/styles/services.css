@@ -1,0 +1,66 @@
+.services h1 {
+    color: var(--cardBg);
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.services-content {
+    display: flex;
+    align-items: center;
+    padding: 4rem;
+}
+
+.services-content>img {
+    width: 45vw;
+    height: 70vh;
+}
+
+.services-content>.container {
+    margin: 0rem 4rem;
+}
+
+.services-content>.container>p {
+    margin-bottom: 20px;
+}
+
+.services-content>.container>ul>li {
+    list-style: none;
+}
+
+.services-content>.container>ul>li>h4 {
+    color: var(--companyName);
+}
+
+@media screen and (max-width: 939px) {
+    .services-content {
+        flex-direction: column;
+    }
+
+    .services-content>img {
+        width: 40vw;
+        height: 60vh;
+        margin-bottom: 1rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .services h1 {
+        font-size: 1.5rem;
+        margin: 20px 10px;
+    }
+
+    .services-content {
+        padding: 2rem 1rem;
+    }
+
+    .services-content>img {
+        width: 80vw;
+        height: 55vh;
+    }
+
+    .services-content>.container {
+        margin: 0rem 1rem;
+        text-align: justify;
+        font-size: 0.8rem;
+    }
+}

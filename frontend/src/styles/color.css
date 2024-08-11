@@ -1,0 +1,37 @@
+:root {
+
+  --white: #fff;
+  --black: #000;
+  --yellow: rgb(251, 251, 56);
+  --companyName: #3fb43d;
+
+  /* Sidebar */
+  --navIcons: #147675;
+  --menu: #147675;
+  --submenu: #147675;
+  --hoverBg: #d3e2e2;
+  --hoverCloseSidebar: rgba(171, 172, 179, 0.5);
+
+  /* Slider */
+  --sliderBg: rgb(34, 35, 64);
+  --sliderCardBg: rgb(127, 127, 139);
+
+  /* Home Page */
+  --homeIcon: rgb(74, 97, 166);
+  --homeData: #2fff2c7a;
+  --marquee: #323a52;
+
+  /* Home Contact Card */
+  --cardBg: #1a5450;
+
+  /* Button */
+  --btnBg: #1a54509b;
+  --btnBorder: rgb(84, 79, 79);
+  --btnHover: rgb(72, 68, 68);
+
+  /* About Page */
+  --aboutUsData: rgb(255 116 116 / 60%);
+
+  /* Footer */
+  --footerLink: #a8ffa6;
+}

@@ -1,0 +1,136 @@
+.bg-container {
+    background: linear-gradient(#f8f8f8d4 100%, rgba(220, 220, 220, 0.899)100%), url('../media/aboutUsBg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.about-us h1 {
+    color: var(--cardBg);
+    padding-top: 4rem;
+    text-align: center;
+}
+
+.about-us .container {
+    display: flex;
+    text-align: justify;
+    width: 100%;
+    padding: 4rem;
+}
+
+.column1,
+.column2 {
+    line-height: 1.8rem;
+    width: 40%;
+    margin: auto;
+}
+
+.column2>ul {
+    margin-bottom: 2rem;
+}
+
+.column2>ul>li {
+    list-style: none;
+}
+
+.about-us>.data {
+    background-color: var(--aboutUsData);
+    margin: 0;
+    height: 20vh;
+    display: flex;
+    margin: auto;
+}
+
+.about-us>.data>ul {
+    background: none;
+}
+
+/* Ratings */
+.ratings {
+    padding-top: 1rem;
+    padding-bottom: 4rem;
+}
+
+.ratings>h2 {
+    text-align: center;
+    color: var(--cardBg);
+}
+
+.ratings>p {
+    text-align: center;
+    margin: 20px 0px 30px 0px;
+}
+
+@media screen and (max-width: 1024px) {
+    .about-us .container {
+        padding: 2rem;
+    }
+
+    .about-us>.data {
+        height: 25vh;
+    }
+
+    .about-us>.data>ul {
+        width: 70vw;
+    }
+}
+
+@media screen and (max-width: 660px) {
+
+    .column1,
+    .column2 {
+        line-height: 1.5rem;
+        font-size: 0.8rem;
+    }
+}
+
+@media screen and (max-width: 490px) {
+    .about-us h1 {
+        padding-top: 5rem;
+    }
+
+    .about-us .container {
+        padding: 1rem 2rem;
+        flex-direction: column;
+    }
+
+    .column1,
+    .column2 {
+        line-height: 1.2rem;
+        width: 100%;
+    }
+
+    .column2>ul {
+        margin-bottom: 1rem;
+    }
+
+    .ratings {
+        padding-top: 0rem;
+        padding-bottom: 2rem;
+    }
+
+    .ratings>p {
+        font-size: 0.9rem;
+        margin: 10px 0px 20px 0px;
+    }
+
+    .about-us>.data {
+        height: 15vh;
+    }
+
+    .about-us>.data>ul {
+        width: 90vw;
+    }
+
+    .about-us>.data>ul>li {
+        padding: 0;
+    }
+
+    .about-us-numbers>h2 {
+        font-size: 1rem;
+        margin-bottom: 10px;
+    }
+
+    .about-us-numbers>h5 {
+        font-size: 0.8rem;
+    }
+}

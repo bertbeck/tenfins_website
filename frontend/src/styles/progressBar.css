@@ -1,0 +1,33 @@
+.progress-container {
+  width: 80%;
+  background-color: #f0f0f0;
+  margin: auto;
+  border-radius: 7px;
+}
+
+.progress-bar {
+  height: 35px;
+  margin-bottom: 5px;
+  background-color: var(--cardBg);
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: width 0.5s;
+  padding: 0px 10px;
+  border-radius: 7px;
+}
+
+@media screen and (max-width: 490px) {
+  .progress-container {
+    width: 90%;
+  }
+
+  .progress-bar {
+    height: 25px;
+  }
+
+  .progress-bar>span {
+    font-size: 0.8rem;
+  }
+}

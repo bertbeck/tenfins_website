@@ -1,0 +1,95 @@
+.testimonials>p {
+  text-align: center;
+  margin: 20px 0px 30px 0px;
+}
+
+.reviews {
+  height: 45vh;
+}
+
+.slide-review {
+  width: 50vw;
+  opacity: 0;
+  transform: translateX(40%);
+  transition: all 2s ease;
+  position: relative;
+  left: 25%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.current-review {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.circularLogo {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 20px;
+  margin-top: 30px;
+}
+
+.comment {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3px;
+  line-height: 1.7rem;
+}
+
+.comment>h3 {
+  color: var(--cardBg);
+}
+
+.comment>p {
+  text-align: center;
+  padding: 5px 0px;
+  font-style: italic;
+}
+
+.review-arrow {
+  border: 2px solid var(--black);
+  background-color: transparent;
+  color: var(--black);
+  cursor: pointer;
+  height: 1.5rem;
+  width: 1.5rem;
+  border: none;
+  position: absolute;
+}
+
+.review-arrow :hover {
+  scale: 1.2;
+}
+
+.move-next {
+  right: 1.5rem;
+}
+
+.move-prev {
+  left: 1.5rem;
+}
+
+@media screen and (max-width: 1024px) {
+  .reviews {
+    height: 50vh;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  .comment>p {
+    font-size: 0.8rem;
+    line-height: 18px;
+  }
+
+  .testimonials>p {
+    font-size: 0.9rem;
+    padding: 0px 3px;
+  }
+
+  .reviews {
+    height: 52vh;
+  }
+}

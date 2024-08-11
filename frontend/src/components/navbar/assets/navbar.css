@@ -1,0 +1,168 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button.toggle {
+  background-color: var(--navIcons);
+  z-index: 101;
+  position: fixed;
+  outline: 0;
+  border: none;
+  user-select: none;
+  top: 18px;
+  left: 15px;
+  font-size: 1.4rem;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+}
+
+.company-logo {
+  position: fixed;
+  top: 18px;
+  left: 75px;
+  z-index: 100;
+  height: 50px;
+  width: 140px;
+}
+
+nav {
+  background-image: url('../../../media/sidebarBg.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 60vw;
+  z-index: 100;
+  transition: opacity 0.2s linear;
+  overflow-y: auto;
+  white-space: nowrap;
+}
+
+nav::-webkit-scrollbar {
+  width: 8px;
+  /* Set the width of the scrollbar */
+}
+
+.inner-nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+nav .menu {
+  padding: 0;
+  width: 20vw;
+  position: relative;
+  top: 100px;
+  margin: 0;
+}
+
+nav .navbar-contact {
+  width: 20vw;
+}
+
+.menu-title {
+  display: flex;
+  align-items: center;
+}
+
+/* ContactCard.js */
+
+.navbar-contact-card-ul {
+  list-style: none;
+  position: fixed;
+  top: 100px;
+}
+
+.navbar-contact-card-li {
+  margin: 0 0 20px;
+  border-bottom: 1px solid #393a3c;
+  padding-bottom: 15px;
+  line-height: 20px;
+  width: 100%;
+}
+
+.navbar-contact-card-li h3 {
+  font-size: 20px;
+  line-height: 2.5rem;
+  color: var(--black);
+}
+
+.navbar-contact-card-li a {
+  text-decoration: none;
+  color: var(--navIcons);
+}
+
+/* SocialCard */
+.navbar-social-ul {
+  top: 55%;
+  position: fixed;
+  list-style: none;
+}
+
+.navbar-social-li {
+  margin: 0 5px 0 0;
+  text-align: center;
+  padding: 2px;
+  display: inline;
+  font-size: 3rem;
+}
+
+.navbar-social-li svg {
+  padding: 3px;
+  border-radius: 7px;
+}
+
+.navbar-social-li a :hover {
+  background-color: var(--hoverBg);
+}
+
+@media screen and (max-width: 1024px) {
+  nav .navbar-contact {
+    width: 25vw;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  nav .navbar-contact {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 490px) {
+  nav {
+    width: 80vw;
+    white-space: wrap;
+  }
+
+  .inner-nav {
+    flex-direction: column;
+  }
+
+  nav .menu {
+    width: 80%;
+  }
+
+  .menu>a {
+    font-size: 1.2rem;
+  }
+
+  .menu>a>span {
+    font-size: 0.9rem;
+  }
+
+  nav .navbar-contact {
+    display: none;
+  }
+}
