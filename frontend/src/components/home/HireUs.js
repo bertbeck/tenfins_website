@@ -36,7 +36,7 @@ const HireUs = () => {
       whileInView='animate'
     // custom={1}
     >
-      <h2>WHY DO YOU NEED TO HIRE <font color='#3fb43d'>MySecunda</font> ?</h2>
+      <h2>WHY DO YOU NEED TO HIRE <font color='#3fb43d'>Tenfins</font> ?</h2>
       <div className="card-box">
         <ul>
           {HireUsData1.map((item, index) => {

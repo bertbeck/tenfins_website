@@ -23,8 +23,8 @@ const Footer = () => {
             </div>
             <div className="footer-bottom">
                 <div id="about">
-                    <h3>About MySecunda</h3>
-                    <p>We aim to grow into becoming a leader in the Fintech Industry. From our in company leadership, you will find all your answers at MySecunda. Our ability to connect human insights with advanced, cutting-edge technology helps our clients realize the potential of infinite possibilities and make them a reality.</p>
+                    <h3>About Tenfins</h3>
+                    <p>We aim to grow into becoming a leader in the Fintech Industry. From our in company leadership, you will find all your answers at Tenfins. Our ability to connect human insights with advanced, cutting-edge technology helps our clients realize the potential of infinite possibilities and make them a reality.</p>
                 </div>
                 <div id="our-services">
                     <h3>Our Services</h3>
@@ -54,8 +54,8 @@ const Footer = () => {
                 </div>
             </div>
             <div class="copyright">
-                <p>&copy; Copyright <strong>MySecunda</strong>. All Rights Reserved</p>
-                <p>Designed by <Link to="https://MySecunda.com/">MySecunda</Link></p>
+                <p>&copy; Copyright <strong>Tenfins</strong>. All Rights Reserved</p>
+                <p>Designed by <Link to="https://tenfins.com/">Tenfins</Link></p>
             </div>
         </div>
     )

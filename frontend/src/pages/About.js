@@ -27,7 +27,7 @@ export const About = () => {
         <h1>ABOUT US</h1>
         <div className="container">
           <div className="column1">
-            <p>Connecting with clients on a more personal level has been our forefrong of how Mysecunda has been operating past 3 years. The depth and breadth of the MySecunda team, our focus on forming stronger, collaborative relationships, and our legacy of examining the finest details reveal new perspectives for our clients. Our ability to connect human insights with advanced, cutting-edge technology helps our clients realize the potential of infinite possibilities and make them a reality.</p>
+            <p>Connecting with clients on a more personal level has been our forefrong of how Mysecunda has been operating past 3 years. The depth and breadth of the Tenfins team, our focus on forming stronger, collaborative relationships, and our legacy of examining the finest details reveal new perspectives for our clients. Our ability to connect human insights with advanced, cutting-edge technology helps our clients realize the potential of infinite possibilities and make them a reality.</p>
           </div>
           <div className="column2">
             <ul>

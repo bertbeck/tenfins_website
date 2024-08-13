@@ -17,7 +17,7 @@ export const AndroidApp = () => {
                 <div className="services-content">
                     <img src={androidImg} alt=''></img>
                     <div className="container">
-                        <p>At <strong><font color='#3fb43d'>MySecunda</font></strong>, we understand that every project is unique, and our Android app development process is designed to be flexible and collaborative. Here's how we bring your app vision to life:</p>
+                        <p>At <strong><font color='#3fb43d'>Tenfins</font></strong>, we understand that every project is unique, and our Android app development process is designed to be flexible and collaborative. Here's how we bring your app vision to life:</p>
                         <ul>
                             <li><h4>Conceptualization:</h4> Our team of experts works closely with you to understand your objectives and ideate the concept. We'll explore your target audience, desired features, and user experience.</li>
                             <li><h4>Design:</h4> Our creative designers craft intuitive user interfaces (UI) and engaging user experiences (UX) tailored to your brand and your users' needs.</li>
@@ -65,14 +65,14 @@ export const PythonBackend = () => {
                 <div className="services-content">
                     <img src={pythonBackendImg} alt=''></img>
                     <div className="container">
-                        <p>At <strong><font color='#3fb43d'>MySecunda</font></strong>, we take pride in delivering robust and scalable solutions to meet the dynamic needs of modern businesses. Our Python Backend services stand at the forefront, offering a powerful and versatile foundation for your application's server-side logic.</p>
+                        <p>At <strong><font color='#3fb43d'>Tenfins</font></strong>, we take pride in delivering robust and scalable solutions to meet the dynamic needs of modern businesses. Our Python Backend services stand at the forefront, offering a powerful and versatile foundation for your application's server-side logic.</p>
                         <ul>
                             <h3>Why Choose Our Python Backend Development Service?</h3>
-                            <li> <h4>Industry-Focused Solutions:</h4> MySecunda has a track record of delivering Python Backend solutions across various industries, including e-commerce, healthcare, finance, and startups. Benefit from our industry-focused expertise.</li>
+                            <li> <h4>Industry-Focused Solutions:</h4> Tenfins has a track record of delivering Python Backend solutions across various industries, including e-commerce, healthcare, finance, and startups. Benefit from our industry-focused expertise.</li>
                             <li> <h4>Scalable and Efficient Solutions:</h4> Our Python Backend services are designed to scale seamlessly, providing robust and efficient solutions that can grow with the evolving needs of your business.</li>
                             <li> <h4>Security-First Approach:</h4> Security is at the core of our Python Backend services. We implement industry best practices to safeguard your data and ensure the confidentiality and integrity of your applications.</li>
                             <li> <h4>Rapid Development Cycles:</h4> Leveraging the simplicity and readability of Python, we offer fast development cycles. This means quicker turnaround times for your projects without compromising on quality.</li>
-                            <li><h4>Reliability and Trust:</h4> Clients choose MySecunda for our reputation for reliability. We deliver solutions that meet and exceed expectations, fostering trust and long-term partnerships.</li>
+                            <li><h4>Reliability and Trust:</h4> Clients choose Tenfins for our reputation for reliability. We deliver solutions that meet and exceed expectations, fostering trust and long-term partnerships.</li>
                         </ul>
                     </div>
                 </div>
@@ -89,7 +89,7 @@ export const DataScience = () => {
                 <div className="services-content">
                     <img src={dataScienceImg} alt=''></img>
                     <div className="container">
-                        <p>Leveraging data effectively can provide invaluable insights, streamline operations, and drive innovation. At <strong><font color='#3fb43d'>MySecunda</font></strong>, our Data Science and Automation services empower organizations to harness the full potential of their data. We offer:</p>
+                        <p>Leveraging data effectively can provide invaluable insights, streamline operations, and drive innovation. At <strong><font color='#3fb43d'>Tenfins</font></strong>, our Data Science and Automation services empower organizations to harness the full potential of their data. We offer:</p>
                         <ul>
                             <li><h4>Data Analysis and Insights:</h4> Our data science experts help you unlock the hidden insights within your data. We analyze large datasets to identify trends, patterns, and correlations that can drive data-driven decision-making. Whether you need market research, customer behavior analysis, or predictive modeling, we've got you covered.</li>
                             <li><h4>Automation and AI Integration:</h4> Automate repetitive tasks, reduce human error, and improve efficiency with our automation solutions. We integrate Artificial Intelligence (AI) and Machine Learning into your business processes, enabling intelligent automation that adapts to changing circumstances.</li>
@@ -111,7 +111,7 @@ export const Blockchain = () => {
                 <div className="services-content">
                     <img src={blockchainImg} alt=''></img>
                     <div className="container">
-                        <p> At <strong><font color='#3fb43d'>MySecunda</font></strong>, we offer a comprehensive suite of Blockchain Services that leverage the power of this decentralized technology to drive innovation and transparency. Whether you're a startup exploring blockchain or an established enterprise looking to implement distributed ledger solutions, our expert team is here to guide you through every step of your blockchain journey.</p>
+                        <p> At <strong><font color='#3fb43d'>Tenfins</font></strong>, we offer a comprehensive suite of Blockchain Services that leverage the power of this decentralized technology to drive innovation and transparency. Whether you're a startup exploring blockchain or an established enterprise looking to implement distributed ledger solutions, our expert team is here to guide you through every step of your blockchain journey.</p>
                         <h3>Our Blockchain Services</h3>
                         <ul>
                             <li><h4>Blockchain Consulting:</h4> We offer expert advice and guidance to help you explore the potential of blockchain for your business, including feasibility studies, use case development, and ROI analysis.</li>
@@ -134,7 +134,7 @@ export const DigitalMarketing = () => {
                 <div className="services-content">
                     <img src={digitalMarketingImg} alt=''></img>
                     <div className="container">
-                        <p>In the fast-paced digital landscape, the power of effective digital marketing cannot be overstated. At <strong><font color='#3fb43d'>MySecunda</font></strong>, we're here to be your strategic partner in navigating the complexities of the online world. Our Digital Marketing service is designed to help your business thrive in the digital age.</p>
+                        <p>In the fast-paced digital landscape, the power of effective digital marketing cannot be overstated. At <strong><font color='#3fb43d'>Tenfins</font></strong>, we're here to be your strategic partner in navigating the complexities of the online world. Our Digital Marketing service is designed to help your business thrive in the digital age.</p>
                         <h3>Our Digital Marketing Services</h3>
                         <ul>
                             <li><h4>Search Engine Optimization (SEO):</h4> Drive organic traffic to your website by optimizing it for search engines. Our SEO experts ensure that your content is discoverable by the right people, leading to increased visibility and brand authority.</li>
